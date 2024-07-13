@@ -1,0 +1,21 @@
+.container {
+    display: flex;
+    justify-content: space-around;
+    flex-flow: row wrap;
+}
+
+.box {
+    background-color: rgb(8, 33, 55);
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+body {
+    background-color: rgb(112, 44, 44);
+    background-image: url(../img/comida_fondo.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
